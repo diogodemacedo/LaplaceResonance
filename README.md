@@ -1,2 +1,1 @@
-# LaplaceResonance
-A simulation of 3-body Laplace resonance in Jupiter's moons.
+I wrote this program back in 2019, as a part of my undergrad astrophysics course. It is a Matlab/Octave script that creates a simple model of the Laplace resonance between three of Jupiter's largest moons: Io, Europa, and Ganymede. The script calculates the angles between the moons over time using a simple model that assumes circular orbits and neglects the influence of other bodies in the solar system. The resulting plot shows the variation of the angles over time, with each line representing the angle of a different moon. The repeating pattern of the angles is characteristic of the Laplace resonance. 
