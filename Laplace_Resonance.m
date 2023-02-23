@@ -1,3 +1,5 @@
+% Diogo de Macedo
+
 % Define initial conditions
 t = 0:0.1:1000;
 a = [421700, 671100, 1070400]; % semi-major axes in meters
@@ -12,7 +14,7 @@ omega = 2*pi./P;
 % Define initial angles
 theta = [0, 0, 0];
 
-% Define function to calculate derivatives of theta (im using ode45)
+% Define function to calculate derivatives of theta (i am using ode45)
 dtheta_dt = @(t,theta) omega - [1, -2, 1].*omega.*cos([theta(1)-theta(2), theta(2)-theta(3), theta(1)-theta(3)]);
 
 % Integrate the equations of motion
